@@ -24,3 +24,5 @@ def control_led():
 def get_led_status():
     return jsonify({'led_status': led_status})
 
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000, debug=True)
