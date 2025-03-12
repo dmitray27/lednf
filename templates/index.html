@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ESP32 Control</title>
+    <script>
+        function sendCommand(action) {
+            fetch('/control', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({action: action})
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Status:', data.led_status ? 'ON' : 'OFF');
+            });
+        }
+    </script>
+</head>
+<body>
+    <h1>Управление светодиодом</h1>
+    <button onclick="sendCommand('on')">Включить</button>
+    <button onclick="sendCommand('off')">Выключить</button>
+</body>
+</html>
