@@ -1,5 +1,13 @@
-from flask import Flask, render_template, request, jsonify
+# Патчинг gevent должен быть выполнен ПЕРВЫМ
+from gevent import monkey
+monkey.patch_all()
+
+from flask import Flask, render_template
+from datetime import datetime
 import requests
+import json
+import os
+import logging
 
 app = Flask(__name__)
 
