@@ -10,7 +10,7 @@ import os
 import logging
 
 app = Flask(__name__)
-# CORS(app)
+CORS(app)
 # Текущее состояние светодиода (по умолчанию выключен)
 led_status = True
 
