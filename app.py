@@ -12,7 +12,7 @@ import logging
 app = Flask(__name__)
 # CORS(app)
 # Текущее состояние светодиода (по умолчанию выключен)
-led_status = False
+led_status = True
 
 @app.route('/')
 def index():
