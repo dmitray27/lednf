@@ -8,7 +8,7 @@ import requests
 import json
 import os
 import logging
-
+from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 # Текущее состояние светодиода (по умолчанию выключен)
