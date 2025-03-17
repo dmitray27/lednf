@@ -34,4 +34,21 @@ A project for remote LED control using an ESP32 microcontroller and a Flask-base
 3. 220Ω Resistor
 4. Breadboard and jumper wires
 
-**Wiring Diagram**:
+### Software Setup
+1. Clone the repository:
+```bash
+git clone https://github.com/dmitray27/lednf.git
+cd lednf
+2. Install Flask dependencies:
+```bash
+pip install -r requirements.txt
+3. Start the server:
+```bash
+python app.py  # For development
+# For production:
+gunicorn --bind 0.0.0.0:80 app:app
+
+# 🌍 Deployment
+
+### On Timeweb Cloud server.
+
