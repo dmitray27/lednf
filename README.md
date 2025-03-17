@@ -49,6 +49,5 @@ python app.py  # For development
 gunicorn --bind 0.0.0.0:80 app:app
 
 ## 🌍 Deployment
-
-### On Timeweb Cloud server.
+**On Timeweb Cloud server.**
 
