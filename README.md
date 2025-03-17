@@ -1,4 +1,4 @@
-# Remote LED Control via ESP32 with Web Interface [![Live Demo](https://img.shields.io/badge/Live_Demo-Timeweb_Cloud-blue)](https://dmitray27-lednf-9cec.twc1.net/)
+# Remote LED Control or control relay via ESP32 with Web Interface [![Live Demo](https://img.shields.io/badge/Live_Demo-Timeweb_Cloud-blue)](https://dmitray27-lednf-9cec.twc1.net/)
 
 A project for remote LED control using an ESP32 microcontroller and a Flask-based web interface hosted on Timeweb Cloud.
 
