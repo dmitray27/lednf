@@ -47,7 +47,7 @@ pip install -r requirements.txt
 python app.py  # For development
 # For production:
 gunicorn --bind 0.0.0.0:80 app:app
-
+/
 ## 🖥 Web Interface Preview
 
 Web Interface
