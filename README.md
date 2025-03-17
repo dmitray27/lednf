@@ -62,7 +62,6 @@ Web Interface
 
 ## 🌍 Deployment
 
-    On Timeweb Cloud server.
+On Timeweb Cloud server.
 
-## 🚀 Features
 
