@@ -20,10 +20,10 @@ A project for remote LED control using an ESP32 microcontroller and a Flask-base
 ## 🛠 Technologies
 | Component       | Technologies               |
 |-----------------|----------------------------|
-| Microcontroller | ESP32 (C++, PlatformIO)    |
+| Microcontroller | ESP32 (C++, Arduino IDE)    |
 | Backend         | Python Flask               |
-| Frontend        | HTML5, JavaScript, AJAX    |
-| Hosting         | Timeweb Cloud + Nginx      |
+| Frontend        | HTML5, JavaScript    |
+| Hosting         | Timeweb Cloud      |
 | Security        | HTTPS, Rate Limiting       |
 
 ## 📦 Installation
