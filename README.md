@@ -11,7 +11,7 @@ A project for remote control of LED and Relay  via ESP32 microcontroller and a F
 **Web Interface**: [https://dmitray27-lednf-9cec.twc1.net/](https://dmitray27-lednf-9cec.twc1.net/)
 
 ## 🚀 Features
-- Real-time control of LED and Relayvia a web interface
+- Real-time control of LED and Relay via a web interface
 - Secure HTTPS connection
 - REST API for third-party integrations
 - Auto-refreshing status updates (no page reload)
