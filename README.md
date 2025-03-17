@@ -39,7 +39,7 @@ A project for remote LED control using an ESP32 microcontroller and a Flask-base
 
 ```bash
 git clone https://github.com/dmitray27/lednf.git
-cd lednf 
+cd lednf ```
 
 ## Software Setup
 
