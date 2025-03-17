@@ -42,12 +42,16 @@ cd lednf
 ```
 2. Install Flask dependencies:
 
-```bash pip install -r requirements.txt```
+```bash 
+pip install -r requirements.txt
+```
 
 3. Start the server:
-```bash python app.py  # For development
+```bash 
+python app.py  # For development
 # For production:
-gunicorn --bind 0.0.0.0:80 app:app```
+gunicorn --bind 0.0.0.0:80 app:app
+```
 
 
 
