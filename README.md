@@ -30,9 +30,10 @@ A project for remote control of LED and Relay  via ESP32 microcontroller and a F
 
 ### Hardware Requirements
 1. **ESP32** (any variant)
-2. LED (any color)
-3. 220Ω Resistor
-4. Breadboard and jumper wires
+2. Relay module Songle SRD-03VDC-SL-C and similar models
+3. LED (any color)
+4. 220Ω Resistor
+5. Breadboard and jumper wires
 
 ### Software Setup
 1. Clone the repository:
