@@ -1,4 +1,4 @@
-bind = "0.0.0.0:8000"
+bind = "0.0.0.0:$PORT"
 workers = 1
 worker_class = "gevent"
 timeout = 120
